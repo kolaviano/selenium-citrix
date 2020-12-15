@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import sqlite3
 import time
 
-chromedriver = "C:/Users/kolaviano/Downloads/myfirst/chromedriver.exe"
+chromedriver = "C:/Users/kolaviano/Downloads/myfirst/selenium-citrix/chromedriver.exe"
 driver = webdriver.Chrome(chromedriver)
 driver.get("http://ctxadmin-pub.pc.factset.com/Director")
 
